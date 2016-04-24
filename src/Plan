@@ -1,0 +1,23 @@
+
+Swingin tapahtumankäsittelijästä kustutaan sovelluksen tapahtumankäsittelijää
+Kukin olio lähettää Observer mallin mukaan tiedot GUIhin
+
+Classes:
+
+    - LightSensor (Siis täm on tapahtumankäsittelijä kun asetetaan pantti hinhnalle)
+    - MoveSensor
+    - Motor
+    - EventController
+    - Printer
+    - Display
+    - Date and Time (Java)
+
+Tekstipohjainen sovellus:
+
+    - Painetaan nappia menusta tai sitten swing oikea nappi
+
+    - Kun subject lähettää tiedot update metodissa parametrina event esim. nappia painettu, pantti (Jos eka niin moottori käyntiin),
+    näytä summa, tulosta.
+
+
+    
