@@ -16,6 +16,10 @@ public class Display extends Observable {
     public Display(Observer o) {
         this.addObserver(o);
     }
+
+    Display(Observable o) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     public void show(float sum) {
         setChanged(); // the two methods of Observable class
         Event event = new Event(Constants.EVENT_SHOW_SUM,new Float(sum));

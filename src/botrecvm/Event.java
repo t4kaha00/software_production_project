@@ -16,6 +16,10 @@ public class Event {
         this.data = data;
         this.type = type;
     }
+
+    Event(int EVENT_MOTOR_START) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     public int getType() {
         return type;
     }

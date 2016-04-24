@@ -16,6 +16,10 @@ public class Printer extends Observable {
        public Printer(Observer o) {
         this.addObserver(o);
     }
+
+    Printer(Observable o) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     public void printTicket(float sum) {
         setChanged(); // the two methods of Observable class
         Event event = new botrecvm.Event(Constants.EVENT_PRINT_TICKET,new Float(sum));
